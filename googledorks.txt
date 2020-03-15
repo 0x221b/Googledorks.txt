@@ -1,0 +1,19 @@
+	*Enumeration
+  site:*.example.* intitle:"server"
+  
+  *Info Leak
+  intitle:"index of" site:*.example.* 
+  intitle:"index of" accounts.xml site:*.example.*
+  inurl:conf site:*.example.*
+  inurl:log site:*.example.*
+  filetype:xml site:*.example.*
+  inurl:backup site:*.example.*
+  inurl:sql site:*.example.*
+  site:*.example.* filetype:cache
+  site:*.example.* filetype:csv
+  
+  
+  
+  *Open redirect
+  site:*.example.* inurl:redirect
+  site:*.example.* inurl:url
