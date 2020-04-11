@@ -1,7 +1,8 @@
-	*Enumeration
-  site:*.example.* intitle:"server"
+*Enumeration
+  site:*.example.* intitle:"server" 		(server fingerprinting)
+  site:*.example.* inurl:login
   
-  *Info Leak
+*Info Leak
   intitle:"index of" site:*.example.* 
   intitle:"index of" accounts.xml site:*.example.*
   inurl:conf site:*.example.*
@@ -25,7 +26,7 @@
   site:pastefs.com company/domain
   site:codepen.io company/domain
   
-  *Github
+*Github
   org:company password
   org:company aws_secret_access_key
   org:company aws_key
@@ -38,6 +39,15 @@
   org:company apps.googleusercontent.com
   org:company extension:pem key
   
-  *Open redirect
+*Open redirect
   site:*.example.* inurl:redirect
   site:*.example.* inurl:url
+  
+*File upload
+  site:*.example.* inurl:upload
+  
+*Directory Traversal
+  site:*.example.* inurl:file
+  
+*IDOR
+  site:*.example.* inurl:id
