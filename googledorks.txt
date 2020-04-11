@@ -19,6 +19,11 @@
   intext:company filetype:docx
   intext:company filetype:pdf
   site:bitbucket inurl:master company (use Yandex.com)
+  site:gist.github.com company/domain
+  site:pastebin.com company/domain
+  site:justpasteit.com company/domain
+  site:pastefs.com company/domain
+  site:codepen.io company/domain
   
   *Github
   org:company password
