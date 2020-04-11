@@ -18,8 +18,20 @@
   intext:company filetype:pptx
   intext:company filetype:docx
   intext:company filetype:pdf
+  site:bitbucket inurl:master company (use Yandex.com)
   
-  
+  *Github
+  org:company password
+  org:company aws_secret_access_key
+  org:company aws_key
+  org:company BEGIN RSA PRIVATE KEY
+  org:company BEGIN OPENSSH PRIVATE KEY	
+  org:company secret_key
+  org:company hooks.slack.com/services
+  org:company sshpass -p
+  org:company sq0csp
+  org:company apps.googleusercontent.com
+  org:company extension:pem key
   
   *Open redirect
   site:*.example.* inurl:redirect
