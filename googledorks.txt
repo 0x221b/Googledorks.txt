@@ -11,6 +11,13 @@
   inurl:sql site:*.example.*
   site:*.example.* filetype:cache
   site:*.example.* filetype:csv
+  site:docs.google.com company
+  site:documentcloud.org company
+  site:scribd.com company
+  site:slideshare.net company
+  intext:company filetype:pptx
+  intext:company filetype:docx
+  intext:company filetype:pdf
   
   
   
